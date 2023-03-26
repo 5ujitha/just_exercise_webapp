@@ -1,0 +1,59 @@
+.homepage{
+    min-height: 80vh;
+    position: relative;
+    background-color: #f6f7fc;
+}
+
+.homepage-wrapper{
+    width: 75%;
+    height: 500px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.homepage-texts{
+    width: 40%;
+}
+
+.homepage-title{
+    text-align: justify;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.homepage-buttons-wrapper{
+    margin-top: 20px;
+    text-align: center;
+    height: 140px;
+    display: flex;
+}
+
+.homepage-buttons-wrapper button{
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-right: 30px;
+    color: white;
+    background-color: #1D6CB5;
+    border: 1px solid #1D6CB5;
+    cursor: pointer;
+}
+
+.homepage-image{
+    width: 60%;
+}
+
+.homepage-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+

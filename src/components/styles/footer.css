@@ -1,0 +1,25 @@
+.footer{
+    padding: 23.5px 0;
+    /* background-color: #305367;  */
+    background-color: #f0f0f1;
+    /* color: #ffffff; */
+    color: black
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+    /* min-height: 45px; */
+}
+
+.footer-information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-information p{
+    margin: 0 1.5rem;
+    font-size: 12px;
+}

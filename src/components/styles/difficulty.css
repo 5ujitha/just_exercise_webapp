@@ -1,0 +1,93 @@
+.difficulty{
+    min-height: 80vh;
+    position: relative;
+    background-color: #f6f7fc;
+}
+
+.difficulty-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.difficulty-title{
+    margin-bottom: 40px;
+}
+
+.difficulty-title p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.difficulty-select{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.difficulty-easy-img,.difficulty-medium-img,.difficulty-hard-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.difficulty-easy-img{
+    background-color: rgb(55, 170, 40);
+}
+
+.difficulty-medium-img{
+    background-color: rgb(235, 184, 88);
+}
+
+.difficulty-hard-img{
+    background-color: rgb(221, 98, 67);
+}
+
+.difficulty-easy-img img,.difficulty-medium-img img,.difficulty-hard-img img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.difficulty-easy p,.difficulty-medium p,.difficulty-hard p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.difficulty-text{
+    margin-top: 40px;
+}
+
+.difficulty-text p{
+    font-size: 1.4rem;
+}
+
+.difficulty-button{
+    margin-top: 50px;
+}
+
+.difficulty-button button{
+    margin: auto;
+    height: 40px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1D6CB5;
+    border: 1px solid #1D6CB5;
+    cursor: pointer;
+}

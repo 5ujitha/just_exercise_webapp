@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #1D6CB5;
+}
+
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 75%;
+    height: 100px;
+}
+
+.logo img{
+    display: block;
+    width:60px;
+    height:60px;
+}
+
+nav ul{
+    display: flex;
+    margin: 25px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin: 0 1.5rem;
+    color: #ffffff;
+}
+

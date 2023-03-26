@@ -1,0 +1,93 @@
+.multi{
+    min-height: 80vh;
+    position: relative;
+    background-color: #f6f7fc;
+}
+
+.multi-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.multi-title{
+    margin-bottom: 40px;
+}
+
+.multi-title p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.multi-title span{
+    color: #1D6CB5;
+}
+
+.multi-select{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.multi-singleplayer-img,.multi-multiplayer-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.multi-singleplayer-img{
+    background-color: rgb(227, 169, 202);
+}
+
+.multi-multiplayer-img{
+    background-color: rgb(214, 123, 250);
+}
+
+.multi-singleplayer-img img,.multi-multiplayer-img img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.multi-multiplayer p,.multi-singleplayer p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.multi-text{
+    margin-top: 40px;
+}
+
+.multi-text p{
+    font-size: 1.4rem;
+}
+
+.multi-button{
+    margin-top: 50px;
+}
+
+.multi-button button{
+    margin: auto;
+    height: 40px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1D6CB5;
+    border: 1px solid #1D6CB5;
+    cursor: pointer;
+}
