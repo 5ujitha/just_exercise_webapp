@@ -20,6 +20,9 @@ function Qr(): React.ReactElement {
             <div className='qr-code'>
                 <img src="images/qr-code.jpg" alt="Qr Code"/>
             </div>
+            <div className='qr-pin'>
+                <p>PIN: 123 456</p>
+            </div>
             <div className='qr-text'>
                 <p>Scan the QR code above to begin</p>
             </div>

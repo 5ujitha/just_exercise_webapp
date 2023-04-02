@@ -7,6 +7,7 @@ import Select from './components/select'
 import Multi from './components/multi'
 import Difficulty from './components/difficulty'
 import Qr from './components/qr'
+import Ex from './components/exercise'
 import { Route, Routes } from "react-router-dom";
 
 function App(): React.ReactElement {
@@ -18,7 +19,8 @@ function App(): React.ReactElement {
         <Route path="/select" element={<Select/>}/>
         <Route path="/multi" element={<Multi/>}/>
         <Route path="/level" element={<Difficulty/>}/> 
-        <Route path="/qr" element={<Qr/>}/> 
+        <Route path="/qr" element={<Qr/>}/>
+        <Route path="/ex" element={<Ex/>}/>  
       </Routes>
       <Footer/>
     </div>
