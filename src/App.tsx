@@ -9,6 +9,7 @@ import Difficulty from './components/difficulty'
 import Qr from './components/qr'
 import Ex from './components/exercise'
 import { Route, Routes } from "react-router-dom";
+import Vid from './components/vis'
 
 function App(): React.ReactElement {
   return (
@@ -20,7 +21,8 @@ function App(): React.ReactElement {
         <Route path="/multi" element={<Multi/>}/>
         <Route path="/level" element={<Difficulty/>}/> 
         <Route path="/qr" element={<Qr/>}/>
-        <Route path="/ex" element={<Ex/>}/>  
+        <Route path="/ex" element={<Ex/>}/> 
+        <Route path="/vis" element={<Vid/>}/>  
       </Routes>
       <Footer/>
     </div>

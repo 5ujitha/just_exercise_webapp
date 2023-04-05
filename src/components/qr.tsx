@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/qr.css'
 import { useLocation, useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function Qr(): React.ReactElement {
 
@@ -17,9 +18,11 @@ function Qr(): React.ReactElement {
                 > {location.state.level}</span>
                 </p>
             </div>
+            <Link to="/vis">
             <div className='qr-code'>
                 <img src="images/qr-code.jpg" alt="Qr Code"/>
             </div>
+            </Link>
             <div className='qr-pin'>
                 <p>PIN: 123 456</p>
             </div>
